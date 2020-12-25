@@ -1,22 +1,16 @@
-FILE MANAGEMENT DAEMON
+FILE MANAGEMENT DAEMON <br>
 This program provides the base to demonize processes of
 hashing and uploading, downloading, and deleting files from HTTP API.
 
-
-HowTo
-
+HowTo<br>
 To use it, you must have Python3. Download the project from GitHub page,
-then write in console:
-cd path-to-download-folder
-
-Now create and activate the environment:
-pipenv install
-pipenv shell
-
-And connect to the server via:
-gunicorn --bind 0.0.0.0 wsgi:app --daemon
-
-To exit write:
-exit
-
-To test this, run file test.py in the folder test. 
+then write in console: <br>
+`cd path-to-download-folder`<br>
+Now create and activate the environment:<br>
+`pipenv install`<br>
+`pipenv shell`<br>
+And connect to the server via:<br>
+`gunicorn --bind 0.0.0.0 wsgi:app --daemon`<br>
+To exit write:<br>
+`exit`<br>
+To test this, run file `test.py` in the folder test. 
