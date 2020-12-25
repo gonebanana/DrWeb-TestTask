@@ -10,7 +10,7 @@ Now create and activate the environment:<br>
 `pipenv install`<br>
 `pipenv shell`<br>
 And connect to the server via:<br>
-`gunicorn --bind 0.0.0.0 wsgi:app --daemon`<br>
+`gunicorn --bind 127.0.0.1 wsgi:app --daemon`<br>
 To exit write:<br>
 `exit`<br>
 To test this, run file `test.py` in the folder test. 
